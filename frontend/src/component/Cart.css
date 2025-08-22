@@ -1,0 +1,113 @@
+.cart-container {
+  background-color: rgba(71, 22, 2, 0.753); /* Same as staff-card */
+  border-radius: 15px 10px 3px;
+  padding: 60px;
+  max-width: 600px;
+  margin: 70px auto;
+  color: antiquewhite;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: antiquewhite;
+}
+
+.cart-items-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(204, 156, 24, 0.8); /* Matching the staffdashboard theme */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.item-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.item-quantity,
+.item-price {
+  font-size: 16px;
+}
+
+.remove-item-button {
+  background-color: rgb(204, 156, 24);
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.remove-item-button:hover {
+  background-color: rgba(204, 156, 24, 0.6);
+}
+
+.total-price {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.order-token {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.customer-name-label {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.customer-name-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+
+.place-order-button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: rgb(204, 156, 24);
+  border: none;
+  color: black;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.place-order-button:hover {
+  background-color: rgba(204, 156, 24, 0.6);
+}
+
+.thank-you-message {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(204, 156, 24);
+  background-color: rgba(53, 16, 1, 0.9);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,38 @@
+.container{
+   /* background-color: rgba(204, 156, 24, 0.8); */
+  /* position: fixed; */
+  margin-top:15%;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  padding: 10px 0;
+  flex-wrap: wrap;
+
+} 
+.staffdashboard{
+  margin-top: 70px;
+  color: rgb(0, 0, 0);
+}
+.stafflist{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.list-item{
+  margin: 0 15px;
+
+}
+.staff-card{
+  height: 200px;
+  width: 200px;
+  display: flex;
+  background-color: rgb(53, 16, 1);
+  border-radius: 15px 10px 3px;
+}
+.staff-nav{
+  margin-top: 80px;
+  margin-left: 40px;
+  color: antiquewhite;
+}

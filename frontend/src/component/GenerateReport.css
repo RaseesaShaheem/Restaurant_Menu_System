@@ -1,0 +1,235 @@
+/* Generate Report Container */
+.generatereport-container {
+    background: linear-gradient(to bottom, #2d1e12, #4e342e); /* Dark brown gradient */
+    width: 130%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* Report Header */
+.generatereport-header {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* ✅ Report Subheading */
+.mt-4  {
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: bold;
+    /* background-color: #A67C52; Soft Brown */
+    padding: 5px 8px;
+    /* border-radius: 6px; */
+    text-align: center;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* Report List */
+.generatereport-list {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Report Item Styling */
+/* .generatereport-item {
+    background: rgba(139, 94, 59, 0.2); 
+    border:5px solid #8B5E3B; 
+    border-radius: 17px;
+    padding: 25px;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+    color: #4E342E;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(5px); 
+} */
+
+/* Hover Effect */
+.generatereport-item:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+}
+/* ✅ Bold Text */
+/* .generatereport-item p {
+    font-weight: bold;
+    font-size: 19px;
+    color: #4E342E; 
+} */
+
+/* Glassmorphism Effect */
+.generatereport-item::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+}
+/* .generatereport-order-item p{ */
+    /* color: white; */
+/* } */
+
+/* No Report Message */
+.generatereport-no-data {
+    text-align: center;
+    font-size: 20px;
+    color: antiquewhite;
+    margin-top: 20px;
+}
+
+/* ✅ Order List */
+.generatereport-order-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+/* ✅ Order List Item */
+.generatereport-order-item {
+    /* background: #FFF7EC;  */
+    border-radius: 8px;
+    padding: 12px;
+    margin: 8px 0;
+    color: #4E342E;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.generatereport-card p{
+    color: white;
+}
+
+/* ✅ CSV Table */
+.generatereport-csv-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.generatereport-csv-table th,
+.generatereport-csv-table td {
+    border: 1px solid #8B5E3B;
+    padding: 10px;
+    text-align: left;
+}
+
+.generatereport-csv-table th {
+    background-color: #8B5E3B;
+    color: white;
+}
+
+/* ✅ CSV Download Link */
+.generatereport-csv-download {
+    display: inline-block;
+    background-color: #8B5E3B;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.delete-menu-back-button{
+
+    background-color: bisque;
+}
+
+.generatereport-csv-download:hover {
+    background-color: #6A4229;
+    transform: scale(1.05);
+}
+
+/* ✅ Error Message */
+.generatereport-error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .generatereport-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .generatereport-item {
+        width: 95%;
+        padding: 15px;
+    }
+}
+.generatereport-button {
+    background-color: #8B5E3B; /* Light Brown */
+    color: white;
+    font-weight: bold;
+    /* border: 2px solid #6A4229; Darker Brown Border */
+    /* border-radius: 8px; */
+    padding: 9px 9px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    margin-bottom: 10px;
+}  
+
+
+.generatereport-button:hover {
+    background-color: #6A4229; /* Darker Brown */
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.generatereport-controls {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Centers horizontally */
+    gap: 10px; /* Adds space between select and button */
+    margin-bottom: 15px; /* Space below the controls */
+}
+
+/* ✅ Dropdown Container */
+.generatereport-select {
+    background-color: #8B5E3B; /* Light Brown */
+    color: white;
+    font-weight: bold;
+    /* border: 2px solid #6A4229; Darker Brown Border */
+    /* border-radius: 8px; */
+    padding: 10px 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+/* ✅ Hover & Focus Effect */
+.generatereport-select:hover,
+.generatereport-select:focus {
+    background-color: #6A4229; /* Darker Brown */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ✅ Dropdown Options */
+.generatereport-select option {
+    background-color: white;
+    color: #4E342E; /* Dark Brown */
+    font-weight: bold;
+}

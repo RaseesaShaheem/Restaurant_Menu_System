@@ -1,0 +1,107 @@
+/* Container for the entire component */
+.allergen-info-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hsla(34, 76%, 23%, 0.705); /* Light red background for warning atmosphere */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Heading for the page */
+.allergen-info-container h1 {
+    color: #590808; /* Dark red for warning */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Menu item name */
+.allergen-info-container h2 {
+    color: #070600;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Menu item description */
+.allergen-info-container p {
+    color: #590808;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.allergen-info-container h3 {
+    color: #520a0a;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Allergen message (warning or no allergens) */
+.allergen-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Warning message for allergens */
+.allergen-message h3 {
+    background-color: #0f090a; /* Light red background */
+    color: #eb0e0e; /* Dark red text */
+    border: 1px solid #590808;
+}
+
+/* No allergens message */
+.allergen-message.no-allergens {
+    background-color: #e8f5e9; /* Light green background */
+    color: #2e7d32; /* Dark green text */
+    border: 1px solid #2e7d32;
+}
+
+/* Allergen warnings section */
+.allergen-warnings {
+    margin-top: 20px;
+}
+
+/* Heading for allergen warnings */
+.allergen-warnings h3 {
+    color: #740808; /* Dark red for warning */
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    /* font-weight: bold; */
+}
+
+/* List of allergens */
+.allergen-warnings ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual allergen item */
+.allergen-warnings li {
+    background-color: #0807065e; /* Light red background */
+    color: #eedc76; /* Dark red text */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.back-button{
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #7c300c;
+}
+
+
+/* Hover effect for allergen items */
+/*  */

@@ -1,0 +1,145 @@
+/* General styles for the NutritionalInfo component */
+.con{
+    background-color: hsla(34, 91%, 29%, 0.856); /* Light red background for warning atmosphere */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width:500px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+p {
+    color:black;
+    line-height: 1.6;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+/* Container for nutritional information */
+.nutri-info-container {
+    max-width: 800px;
+    margin: 20px auto;
+    /* background: #541b0994; */
+    /* background-color: hsla(34, 76%, 23%, 0.705); Light red background for warning atmosphere */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Input for quantity multiplier */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+
+input[type="number"] {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    border: 1px solid #b6b31186;
+    /* background-color: #e6d8d45d; */
+    border-radius: 5px;
+    text-align: center;
+}
+input[value]{
+    color:black;
+}
+
+/* Pie chart container */
+.piechart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20 0;
+    width:400px;
+    height:300px;
+    
+}
+/* pieData > data{
+    color:#5dee7c;
+} */
+
+/* Legend container */
+.legend-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 10px;
+}
+
+.legend-colorbox {
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    background-color: #ddd; /* Default color */
+}
+
+.legend-label {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Nutritional details section */
+.nutri-details {
+    margin-top: 30px;
+    padding: 20px;
+    /* background-color: #24090194; */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nutri-details h3 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.nutri-details p {
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    margin: 5px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nutri-info-container {
+        padding: 15px;
+    }
+
+    input[type="number"] {
+        width: 80%;
+    }
+
+    .legend-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.back-button{
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #7c300c;
+}

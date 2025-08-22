@@ -1,0 +1,83 @@
+/* Main container */
+.delete-menu-container {
+    max-width: 800px;
+    /* width:100%; */
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:rgba(145, 72, 19, 0.724);
+  }
+
+/* Title */
+.delete-menu-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Message */
+.delete-menu-message {
+    font-size: 14px;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+/* Multi-select dropdown */
+.delete-menu-select {
+    width: 100%;
+    height: 220px; /* Increased height */
+    border: 2px solid rgba(145, 72, 19, 0.724);;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    /* background-color:rgba(180, 144, 118, 0.724); */
+    cursor: pointer;
+    outline: none;
+}
+
+/* Style selected options */
+.delete-menu-option:checked {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+/* Delete button */
+.delete-menu-button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #e63946;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.delete-menu-button:hover {
+    background-color: #d62828;
+}
+
+/* Back button styling */
+.delete-menu-back-button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.delete-menu-back-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,106 @@
+/* General menu styling */
+.menu {
+  padding: 20px;
+  
+  /*background-color:rgb(85,107,47); /* Light background color for contrast */
+  /* background-color: black; */
+  margin-top: 30px;
+  /* font-size: 20px; */
+}
+.heading{
+  font-size: 40px;
+  /* color: ; */
+  /* font-style: oblique; */
+  font-family:cursive;
+  font-weight: lighter;
+
+}
+/*search bar*/
+.search-bar {
+  margin-bottom: 20px;
+  /* color: black; */
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+/* Styling for each category section */
+.menu-category {
+  margin-bottom: 40px; /* Space between categories */
+  /*background-color:rgb(85,107,47);*/
+  /* background-color: black; */
+  /* color: black; */
+}
+
+/* Category title styling */
+.menu-category h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  /* border-bottom: 2px solid #ddd; */
+  padding-bottom: 5px;
+  background-color: black;
+}
+
+/* Grid styling */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  /* background-color: black; */
+  /*background-color: rgb(85,107,47);*/
+}
+
+/* Individual menu item card */
+.menu-item {
+  border: 1px black;
+  padding: 15px;
+  text-align: center;
+  background-color:black; /* Background for menu item */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+/* 
+.des{
+  color: white;
+} */
+
+.menu-item:hover {
+  transform: translateY(-5px); /* Subtle hover effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.menu-item-image {
+  width: 100%;
+  height: 200px;
+  
+  object-fit: cover;
+  border-radius: 6px;
+  
+}
+
+/* Text styling within menu items */
+.menu-item h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  color:white;
+}
+
+.menu-item p {
+  margin: 5px 0;
+  color:white;
+}
+
+.menu-item p:last-child {
+  font-weight: bold;
+  color: #007bff; /* Highlighted color for price */
+}

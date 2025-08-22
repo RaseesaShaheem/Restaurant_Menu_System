@@ -1,0 +1,24 @@
+#footer-section{
+    background-color: rgb(104, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    /* color: white; */
+  }
+  .footer-content p{
+    color: white;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    width: 30px; /* Adjust size as needed */
+    margin: 0 10px;
+  }
